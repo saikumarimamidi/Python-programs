@@ -1,0 +1,10 @@
+Sno=int(input("Enter the Student no : ")
+SName=input("Enter Student Name : ")
+SGroup=("Enter Student Group : ")
+OS=int(input("Enter OS marks of student : ")
+AFM=int(input("Enter AFM marks of student : ")
+Java=int(input("Enter Java marks of student : ")
+if (OS>=35 && AFM>=35 && Java >=35):
+   print("PASS")
+  else:
+    print("FAIL")
