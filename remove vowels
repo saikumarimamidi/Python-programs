@@ -1,0 +1,10 @@
+s = input("Enter the string: ")
+if s == 'x':
+    exit()
+else:
+    newstr = s
+    vowels = ('a', 'e', 'i', 'o', 'u')
+    for x in s.lower():
+        if x in vowels:
+            newstr = newstr.replace(x,"")
+    print(newstr)
